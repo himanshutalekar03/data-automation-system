@@ -1,0 +1,30 @@
+# Business Data Automation Tool
+
+## Overview
+Enterprise data automation system to process business data from CSV/Excel files.  
+The system performs data validation, cleaning, visualization, and reporting automatically.
+
+## Features
+- CSV/Excel data import
+- Data validation rules
+- Remove duplicate records
+- Drop low-quality columns (>40% null values)
+- Handle missing values using mean, median, and mode
+- Data visualization dashboard
+- Batch file processing
+- Database storage (SQLite)
+- Email report sending
+- Download cleaned data
+
+## Tech Stack
+- Python
+- Pandas
+- Streamlit
+- Matplotlib
+- SQLite
+- SQLAlchemy
+
+## Installation
+
+```bash
+pip install -r requirements.txt
